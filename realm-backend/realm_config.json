@@ -1,0 +1,8 @@
+{
+    "app_id": "expo-realm-demo-skeem",
+    "config_version": 20210101,
+    "name": "expo-realm-demo",
+    "location": "DE-FF",
+    "deployment_model": "LOCAL",
+    "environment": "development"
+}
