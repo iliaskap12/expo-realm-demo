@@ -1,20 +1,41 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { LoginView } from './views/LoginView';
+import { LinksView } from './views/LinksView';
+import { AuthProvider } from './providers/AuthProvider';
+import { LinksProvider } from './providers/LinksProvider';
+import { enableScreens } from 'react-native-screens';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-export default function App() {
+enableScreens();
+const Stack = createStackNavigator();
+
+export default function App () {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <AuthProvider>
+      <SafeAreaProvider>
+        <NavigationContainer>
+          <Stack.Navigator screenOptions={{
+            gestureEnabled: true,
+            animationEnabled: false
+          }}>
+            <Stack.Screen
+              name='Login View'
+              component={LoginView}
+              options={{ title: 'Read it Later - Maybe' }}
+            />
+            <Stack.Screen name='Links'>
+              {() => {
+                return (
+                  <LinksProvider>
+                    <LinksView />
+                  </LinksProvider>
+                );
+              }}
+            </Stack.Screen>
+          </Stack.Navigator>
+        </NavigationContainer>
+      </SafeAreaProvider>
+    </AuthProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

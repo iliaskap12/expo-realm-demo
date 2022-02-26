@@ -1,0 +1,621 @@
+{
+  "componentTree": {
+    "RealmApp":  "",
+    "App": {
+      "StripeApp": {
+        "AuthProvider": {
+          "StripeProvider": {
+            "SafeAreaProvider": {
+              "LanguageProvider": {
+                "NavigationContainer": {
+                  "Navigator.Stack": {
+                    "NavigationStack.Screen -> Login": {
+                      "LoginView": {
+                        "SafeAreaView": ["AuthButton", "AuthButton"]
+                      }
+                    },
+                    "NavigationStack.Screen -> UserHome": {
+                      "RadioProvider": {
+                        "UserView": {
+                          "SafeAreaView": {
+                            "Navigator.Stack": {
+                              "NavigationStack.Screen -> Notifications": {
+                                "NotificationsView": {
+                                  "PanGestureHandler -> ???": {
+                                    "SafeAreaView": {
+                                      "ScrollView": {
+                                        "FlatList": [{
+                                          "ListItem": {
+                                            "MessageView": {
+                                              "SafeAreaView": {
+                                                "Text": "",
+                                                "Date": "",
+                                                "Button": ""
+                                              }
+                                            }
+                                          }
+                                        }]
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Navigator.Tab": {
+                              "NavigationTab.Screen -> Quote": {
+                                "QuoteView": {
+                                  "Quote": {
+                                    "Text": ""
+                                  },
+                                  "CandlePromotion": {
+                                    "Text": "",
+                                    "Button": ""
+                                  },
+                                  "Candle": "",
+                                  "Radio": {
+                                    "PanGestureHandler -> ???": {
+                                      "SectionList": [{
+                                        "ListItem": {
+                                          "SafeAreaView": {
+                                            "Image": "",
+                                            "Text": "",
+                                            "Player": {
+                                              "Controls": ["Button", "Button", "Button"],
+                                              "Track": {
+                                                "TrackName": {
+                                                  "Text": ""
+                                                },
+                                                "TrackBar": {
+                                                  "ProgressBar": "",
+                                                  "TimeIndicator": {
+                                                    "Text": ""
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }]
+                                    }
+                                  }
+                                }
+                              },
+                              "NavigationTab.Screen -> Names": {
+                                "NamesView": {
+                                  "SafeAreaView": {
+                                    "Navigator.Tab": {
+                                      "NavigationTab.Screen -> Health": {
+                                        "ForHealthView": {
+                                          "SafeAreaView": {
+                                            "ScrollView": {
+                                              "KeyboardAvoidingView": {
+                                                "TextInput": ""
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "NavigationTab.Screen -> Departed": {
+                                        "ForDepartedView": {
+                                          "SafeAreaView": {
+                                            "ScrollView": {
+                                              "KeyboardAvoidingView": {
+                                                "TextInput": ""
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "Radio": "..."
+                                  }
+                                }
+                              },
+                              "NavigationTab.Screen -> Donations": {
+                                "DonationsView": {
+                                  "Navigator.Stack": {
+                                    "NavigatorStack.Screen -> OffersForm": {
+                                      "OffersFormView -> Formik/Stripe elements ???": {
+                                        "SafeAreaView": {
+                                          "ScrollView": {
+                                            "SectionList": [
+                                              {
+                                                "ListItem": {
+                                                  "CandleOffer": {
+                                                    "Offer": {
+                                                      "SafeAreaView": {
+                                                        "Title": {
+                                                          "Text": ""
+                                                        },
+                                                        "Quantity": {
+                                                          "KeyboardAvoidingView": {
+                                                            "TextInput": ""
+                                                          }
+                                                        },
+                                                        "Prices": {
+                                                          "FlatList": [{
+                                                            "ListItem": {
+                                                              "Price": {
+                                                                "Button": "",
+                                                                "Text": ""
+                                                              }
+                                                            }
+                                                          }]
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "BigCandleOffer": {
+                                                    "Offer": "..."
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "LampOffer": {
+                                                    "Offer": ""
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "HolyBreadOffer": {
+                                                    "Offer": "..."
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "FanouropitaOffer": {
+                                                    "Offer": "..."
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "ArtosOffer": {
+                                                    "Offer": "..."
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "WineOffer": {
+                                                    "Offer": ""
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "OliveOilOffer": {
+                                                    "Offer": ""
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "ForThePoorOffer": {
+                                                    "Offer": ""
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "CommonMealOffer": {
+                                                    "Offer": ""
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "ListItem": {
+                                                  "OtherOffer": {
+                                                    "Offer": ""
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "FlatList": [{
+                                              "ListItem": {
+                                                "Church": {
+                                                  "SafeAreaView": {
+                                                    "Button": {
+                                                      "Text": "",
+                                                      "Image": ""
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }]
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "NavigationStack.Screen -> PaymentsForm": {
+                                      "PaymentsFormView": {
+                                        "StripeElement": {}
+                                      }
+                                    }
+                                  },
+                                  "Radio": "..."
+                                }
+                              }
+                            },
+                            "Navigator.Drawer": {
+                              "NavigationDrawer.Screen -> Settings": {
+                                "SettingsView": {
+                                  "SafeAreaView": {
+                                    "ScrollView": {
+                                      "FlatList": [{
+                                        "ListItem": {
+                                          "Setting": {
+                                            "SafeAreaView": {
+                                              "Image": "",
+                                              "SettingInfo": {
+                                                "Text -> Title":  "",
+                                                "Text -> Description": ""
+                                              },
+                                              "Button": ""
+                                            }
+                                          }
+                                        }
+                                      }]
+                                    }
+                                  }
+                                }
+                              },
+                              "NavigationDrawer.Screen -> History": {
+                                "HistoryView": {
+                                  "SafeAreaView": {
+                                    "ScrollView": {
+                                      "SectionList": [{
+                                        "ListItem": {
+                                          "Year": {
+                                            "SafeAreaView": {
+                                              "Date": "",
+                                              "FlatList": [{
+                                                "ListItem": {
+                                                  "Donation": {
+                                                    "SafeAreaView": {
+                                                      "Date": "",
+                                                      "SafeAreaView": {
+                                                        "Text -> Church":  "",
+                                                        "Text -> Offer":  "",
+                                                        "Text -> Price": ""
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }]
+                                            }
+                                          }
+                                        }
+                                      }]
+                                    }
+                                  }
+                                }
+                              },
+                              "NavigationDrawer.Screen -> Help": {
+                                "HelpView": {
+                                  "Modal": {
+                                    "SafeAreaView": {
+                                      "ScrollView": {
+                                        "Text": ""
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "NavigationDrawer.Screen -> Logout": {}
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "NavigationStack.Screen -> PriestHome": {
+                      "PriestView": {
+                        "SafeAreaView": {
+                          "Navigator.Tab": {
+                            "NavigationTab.Screen -> PriestHome": {
+                              "AcknowledgedOffersView": {
+                                "SafeAreaView": {
+                                  "Navigator.Tab": {
+                                    "NavigationTab.Screen -> By category": {
+                                      "OffersCategoriesView": {
+                                        "SafeAreaView": {
+                                          "ScrollView": {
+                                            "SectionList": [{
+                                              "ListItem": {
+                                                "Text": "Title",
+                                                "FlatList": [{
+                                                  "ListItem": {
+                                                    "Navigator.Tab": {
+                                                      "NavigationTab.Screen -> ForHealth": {
+                                                        "ForHealthView": {
+                                                          "SafeAreaView": {
+                                                            "FamilyName": "Text",
+                                                            "ScrollView": {
+                                                              "FlatList": [{
+                                                                "ListItem": {
+                                                                  "Name": "Text"
+                                                                }
+                                                              }]
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "NavigationTab.Screen -> ForTheDeparted": {
+                                                        "ForTheDepartedView": {
+                                                          "SafeAreaView": {
+                                                            "FamilyName": "Text",
+                                                            "ScrollView": {
+                                                              "FlatList": [{
+                                                                "ListItem": {
+                                                                  "Name": "Text"
+                                                                }
+                                                              }]
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "Pressable": {
+                                                      "Text": "Date",
+                                                      "Info": {
+                                                        "Name": "Text",
+                                                        "Event": "Text"
+                                                      }
+                                                    }
+                                                  }
+                                                }]
+                                              }
+                                            }]
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "NavigationTab.Screen -> By date": {
+                                      "OffersDateView": {
+                                        "SafeAreaView": {
+                                          "ScrollView": {
+                                            "SectionList": [{
+                                              "ListItem": {
+                                                "Text": "Year",
+                                                "FlatList": [{
+                                                  "ListItem": {
+                                                    "Navigator.Tab": {
+                                                      "NavigationTab.Screen -> ForHealth": {
+                                                        "ForHealthView": {
+                                                          "SafeAreaView": {
+                                                            "FamilyName": "Text",
+                                                            "ScrollView": {
+                                                              "FlatList": [{
+                                                                "ListItem": {
+                                                                  "Name": "Text"
+                                                                }
+                                                              }]
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "NavigationTab.Screen -> ForTheDeparted": {
+                                                        "ForTheDepartedView": {
+                                                          "SafeAreaView": {
+                                                            "FamilyName": "Text",
+                                                            "ScrollView": {
+                                                              "FlatList": [{
+                                                                "ListItem": {
+                                                                  "Name": "Text"
+                                                                }
+                                                              }]
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "Pressable": {
+                                                      "Text": "Date",
+                                                      "Info": {
+                                                        "Name": "Text",
+                                                        "Event": "Text"
+                                                      },
+                                                      "Badge": "Offer"
+                                                    }
+                                                  }
+                                                }]
+                                              }
+                                            }]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "NavigationTab.Screen -> DonationsHistory": {
+                              "DonationsHistoryView": {
+                                "SafeAreaView": {
+                                  "ScrollView": {
+                                    "SectionList": [{
+                                      "ListItem": {
+                                        "Year": "Text",
+                                        "FlatList": [{
+                                          "ListItem": {
+                                            "Date": "Text",
+                                            "Email": "Text",
+                                            "AcknowledgedBy": "Text",
+                                            "Badge": "Offer"
+                                          }
+                                        }]
+                                      }
+                                    }]
+                                  }
+                                }
+                              }
+                            },
+                            "NavigationTab.Screen -> UnacknowledgedOffers": {
+                              "UnacknowledgedOffersView": {
+                                "SafeAreaView": {
+                                  "ScrollView": {
+                                    "FlatList": [{
+                                      "ListItem": {
+                                        "Navigator.Stack": {
+                                          "NavigationStack.Screen -> OfferAcknowledgement": {
+                                            "OfferAcknowledgementView": {
+                                              "SafeAreaView": {
+                                                "Details": {
+                                                  "Title": "Text",
+                                                  "Type": "Text",
+                                                  "Price": "Text",
+                                                  "Email": "Text",
+                                                  "Date": "Text",
+                                                  "Names?": {
+                                                    "FamilyName": "Text",
+                                                    "Navigator.Tab": {
+                                                      "NavigationTab.Screen -> ForHealth": {
+                                                        "SafeAreaView": {
+                                                          "ScrollView": {
+                                                            "FlatList": [{
+                                                              "Name": "Text"
+                                                            }]
+                                                          }
+                                                        }
+                                                      },
+                                                      "NavigationTab.Screen -> ForTheDeparted": {
+                                                        "SafeAreaView": {
+                                                          "ScrollView": {
+                                                            "FlatList": [{
+                                                              "Name": "Text"
+                                                            }]
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "Arrangement": {
+                                                  "DatePicker": {
+                                                    "Date": "Control",
+                                                    "Time": "Control"
+                                                  },
+                                                  "EventPicker": {
+                                                    "SafeAreaView": {
+                                                      "ScrollView": {
+                                                        "FlatList": [{
+                                                          "ListItem": {
+                                                            "Name": "Text",
+                                                            "Button": "Toggle"
+                                                          }
+                                                        }]
+                                                      }
+                                                    }
+                                                  },
+                                                  "TextInput?": "Message"
+                                                },
+                                                "Button": "Save"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "Pressable?": {
+                                          "Date": "Text",
+                                          "Info": {
+                                            "Email": "Text",
+                                            "Price": "Text"
+                                          },
+                                          "Badge": "Type"
+                                        }
+                                      }
+                                    }]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Navigator.Drawer": {
+                            "NavigationDrawer.Screen -> Settings": {
+                              "SettingsView": {
+                                "SafeAreaView": {
+                                  "ScrollView": {
+                                    "FlatList": [{
+                                      "ListItem": {
+                                        "Setting": {
+                                          "SafeAreaView": {
+                                            "Image": "",
+                                            "SettingInfo": {
+                                              "Text -> Title":  "",
+                                              "Text -> Description": ""
+                                            },
+                                            "Button": ""
+                                          }
+                                        }
+                                      }
+                                    }]
+                                  }
+                                }
+                              }
+                            },
+                            "NavigationDrawer.Screen -> CreateUser": {
+                              "CreateUserView": {
+                                "SafeAreaView": {
+                                  "Name": "TextInput",
+                                  "Email": "TextInput",
+                                  "Church?": {
+                                    "SafeAreaView": {
+                                      "ScrollView": {
+                                        "FlatList": [{
+                                          "ListItem": {
+                                            "ChurchName": "Text",
+                                            "Button": "Toggle"
+                                          }
+                                        }]
+                                      }
+                                    }
+                                  },
+                                  "Role": {
+                                    "SafeAreaView": {
+                                      "ScrollView": {
+                                        "FlatList": [{
+                                          "ListItem": {
+                                            "RoleName": "Text",
+                                            "Button": "Toggle"
+                                          }
+                                        }]
+                                      }
+                                    }
+                                  },
+                                  "Button": "Save",
+                                  "Alert": "Feedback"
+                                }
+                              }
+                            },
+                            "NavigationDrawer.Screen -> Help": {
+                              "HelpView": {
+                                "Modal": {
+                                  "SafeAreaView": {
+                                    "ScrollView": {
+                                      "Text": ""
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "NavigationDrawer.Screen -> Logout": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
